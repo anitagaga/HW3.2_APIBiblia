@@ -32,6 +32,7 @@ final class ViewController: UIViewController {
             
             DispatchQueue.main.async {
                 self?.activityIndicatorView.stopAnimating()
+                self?.bibliaVersesAPILabel.text = "Successeful Fetch!"
             }
             
             do {
